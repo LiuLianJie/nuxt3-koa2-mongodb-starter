@@ -14,10 +14,12 @@ front-end:
 ``` npm run dev:client ```
 
 back-end: 
-``` npm run dev:server ````
+```npm run dev:server```
 
 ### how to deploy
 
-front-end: build:client
+front-end: 
+```build:client```
 
-back-end: build:client
+back-end: 
+```build:client```
