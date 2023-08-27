@@ -11,11 +11,10 @@
     "build:client": "nuxt build",
     "build:server": "tsc -p tsconfig-server.json",
     "dev:client": "nuxt dev",
-    "dev:server": "ts-node-esm server/index.ts"
+    "dev:server": "ts-node-esm server/index.ts -p tsconfig-server.json"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@types/node": "^20.5.6",
     "@types/http-proxy": "^1.17.10",
     "@types/koa": "^2.13.5",
     "@types/koa-bodyparser": "^4.3.10",
@@ -26,6 +25,7 @@
     "@types/koa-session": "^5.10.6",
     "@types/koa-static": "^4.0.2",
     "@types/lodash": "^4.14.191",
+    "@types/node": "^20.5.6",
     "nuxt": "^3.6.5",
     "ts-node": "^10.9.1",
     "tslib": "^2.6.2",
@@ -35,6 +35,7 @@
     "chalk": "^5.3.0",
     "koa": "^2.14.2",
     "koa-router": "^12.0.0",
+    "lodash": "^4.17.21",
     "moment": "^2.29.4"
   }
 }
