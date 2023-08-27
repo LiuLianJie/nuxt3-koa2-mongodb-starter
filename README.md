@@ -10,16 +10,20 @@ back-end: **koa2 + mongodb**
 
 ### how to develop
 
-front-end: 
+front-end:
+
 ``` npm run dev:client ```
 
 back-end: 
+
 ```npm run dev:server```
 
 ### how to deploy
 
 front-end: 
+
 ```build:client```
 
 back-end: 
+
 ```build:client```
