@@ -1,63 +1,21 @@
-# Nuxt 3 Minimal Starter
+##  nuxt3-koa2-mongodb-starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+this is a template, including nuxt3 , koa2 , mongodb
 
-## Setup
+utilizing a front-end and back-end separation approach.
 
-Make sure to install the dependencies:
+front-end : nuxt3
 
-```bash
-# npm
-npm install
+back-end: koa2 + mongodb
 
-# pnpm
-pnpm install
+### how to develop
 
-# yarn
-yarn install
-```
+front-end: npm run dev:client
 
-## Development Server
+back-end: npm run dev:server 
 
-Start the development server on `http://localhost:3000`:
+### how to deploy
 
-```bash
-# npm
-npm run dev
+front-end: build:client
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+back-end: build:client
